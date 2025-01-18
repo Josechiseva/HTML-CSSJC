@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Configurações globais das css */
+*{
+    height: 100%;
+}
+body{
+    color: white;
+    background-image: Linear-gradient(330deg, #5258D2, #8A3C88, #BE3082, #BE3082, #DF877B, #F9C677);
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+}

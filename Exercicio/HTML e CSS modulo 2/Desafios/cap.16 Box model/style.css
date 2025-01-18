@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'jay';
+    src: url(fontes/drop.otf) format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #84E1AD;
+}
+header{
+    background-image: linear-gradient(to bottom, #37C475, #1A5C38);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header  h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header > p{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+nav{
+    padding: 5px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px;
+}
+a:hover{
+     background-color: rgba(255, 255, 255, 0.482);
+     color: #1A5C38; 
+}
+main{
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    background-color: white;
+}
+#hist{
+    padding: 5px;
+}
+#hist > h1{
+    color: #37C475;
+    font-family: 'jay';
+    padding: 5px 10px;
+}
+#hist > p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 12px;
+}
+#pv{
+    padding: 5px;
+}
+.sub{
+    font-family: 'jay';
+    color: #37C475;
+    background-image: linear-gradient(to right, #1bc16630, white);
+    text-indent: 5px;
+    padding: 5px 10px;
+}
+#pv > p{
+    font-size: 12px;
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px 5px;
+}
+.link1{
+    text-decoration: none;
+    color: #37C475;
+}
+.link1:hover{
+    border-radius: 03px;
+    color:white ;
+    background-color: #37C475;
+}
+#pv > picture{
+    object-position: center;
+}
+#ms > p{
+    font-size: 12px;
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px 5px;
+}
+.pp{
+    font-size: 12px;
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px 5px;
+}
+#last{
+    background-color: #c5ebd6;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+#last > h1{
+    color: white;
+    padding: 5px;
+    background-color: #2FA866;
+    border-radius: 10px;
+}
+ul{
+        font-size: 12px;
+        text-indent: 20px;
+        text-align: justify;
+        padding: 5px 10px;
+}
+.listas > ul > li::before{
+        margin: 1px;
+        content: '✓';
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listas{
+    display: flex;
+    gap: 50px;
+}
+footer p{
+        font-size: 12px;
+        text-align: center;
+        padding: 5px 10px;
+        color: white;
+    background-color: #1A5C38;
+}
+abbr{
+    text-decoration: none;
+}
+

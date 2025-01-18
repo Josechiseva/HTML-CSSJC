@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+bady{
+    background-color: blanchedalmond;
+}
+main{
+    background-color: aquamarine;
+    padding: 5px;
+    margin: auto;
+        
+}
+h1{
+    background-image: linear-gradient(to right,blue,black,yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    
+}

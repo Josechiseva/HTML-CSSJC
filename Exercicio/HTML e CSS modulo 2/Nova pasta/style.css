@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: #7cc2e7;
+}
+#titule{
+    padding: 20px;
+    background-color: #f6cbe6;
+}
+h1{
+    font-weight: lighter;
+    font-family:'bebas neue';
+    text-align: center;
+    border-radius: 10px;
+    background-color: #eb718e5e;
+    padding: 10px;
+    color:#471114 ;
+}
+#conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center ; 
+    height: 100vh;
+}
+#tela{
+    padding: 10px;
+    width: 250px;
+    background-color: #2b2788 ;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#label{
+    box-shadow:rgba(0, 0, 0, 0.316) 2px 2px 4px;
+    background-color: #1c907c;
+    border-radius: 05px ;
+    padding: 05px;
+    width: 220px;
+    text-align: right;
+}
+#num{
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    text-align: center;
+    gap: 5px;
+    display: flex;
+    border-radius: 05px ;
+    padding: 20px 5px;
+    flex-wrap: wrap;
+}
+.bot{
+    box-shadow:rgba(0, 0, 0, 0.293) 2px 2px 4px;
+    border-radius: 05px;
+    padding: 2px;
+    width: 50px;
+    background-color: #a02738;
+}
+.bot:hover{
+    background-color: #de4e6b;
+}
+.bot:active {
+    background-color: #811f2d;
+    transform: scale(0.9);
+}

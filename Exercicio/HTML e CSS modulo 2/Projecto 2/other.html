@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other</title>
+    <style>
+        @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color:orange ;
+}
+nav{
+    margin: 0 10%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+#section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 233, 192);
+}
+#link1{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10% 0 0;
+    transition: color .4s ease;
+}
+#link1:hover{
+    color: orange;
+}
+section ul{
+    font-size: 12px;
+    gap: 15px;
+    margin: 0 0 0 10%;
+    display: flex;
+}
+section ul li{
+    list-style: none;
+}
+section ul li a{
+    color: black;
+    text-decoration: none;
+    transition: color .4s ease;
+}
+
+section ul li a:hover{
+    color: orange;
+   
+}
+nav ul li{
+    padding: 5px;
+    list-style: none;
+    transition: background .5s ease;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.282);
+    color: white;
+    text-decoration: none;
+}
+nav button{
+    background: none;
+    border: none;
+    color: white;
+    background-color: rgb(189, 124, 5);
+    padding: 10px 20px;
+    transition: background .5s ease;
+    border-radius: 10px;
+}
+nav button:hover{
+    background: none;
+    border: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 10px 20px;
+}
+main{
+    margin: 100px;
+}
+h1{
+    font-family:'Playwrite AU SA';
+    color: orange;
+    font-weight: lighter;
+    padding: 10px;
+}
+p{
+    font-family: 'poppins';
+    text-indent: 20px;
+    padding: 0 0 20px 50px;
+    text-align: justify;
+    font-size: 12px ;
+}
+.material{
+    margin: 50px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'poppins';
+    transition: background .5s ease;
+}
+.material:hover{
+    margin: 50px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: white;
+    color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'poppins';
+    border: orange solid 1px;
+}
+ul{
+    margin: 0 0 10px 50px;
+    list-style-type: none;
+}
+main ul li::before{
+    content: '🔗';
+    font-size: 10px;
+    margin: 0 10px 0 0;
+}
+li{
+    margin: 20px 0 0 0;
+}
+main ul li a{
+    font-family: 'poppins';
+    text-decoration: none;
+    color: orange;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+}
+main ul li a:hover{
+    color: rgb(204, 139, 17);
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <section id="section">
+            <ul>
+                <li><a href="#">Particulares</a></li>
+                <li><a href="#">Particulares</a></li>
+                <li><a href="#">Particulares</a></li>
+                <li><a href="#">Particulares</a></li>
+                <li><a href="#">Particulares</a></li>
+                <li><a href="#">Particulares</a></li>
+            </ul>
+            <a id="link1" href="">PT</a>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abouteme.html">About me</a></li>
+                <li><a href="contactus.html">contact</a></li>
+                <li><a href="other.html">Other</a></li>
+            </ul>
+            <button>Login</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Introdução às <strong>Portas Lógicas</strong></h1>
+        <p>Portas lógicas são blocos fundamentais de qualquer sistema digital. Elas executam operações básicas como AND, OR e NOT, que, combinadas, permitem a criação de circuitos mais complexos, como somadores, multiplexadores e sistemas de controle. Cada tipo de porta lógica opera de acordo com uma função específica, baseada na álgebra booleana, e é essencial no design de computadores, eletrônicos e dispositivos digitais.
+        Baixe o material a seguir para explorar mais sobre os tipos de portas lógicas, suas tabelas-verdade, símbolos e aplicações práticas!</p>
+        <a class="material" href="Matérial/Portas_logicas.pdf" download="Portas_logicas.pdf" type="application/pdf">Clique para Baixar o Material</a>
+        <h1><strong>Links Importantes</strong> para acesso</h1>
+        <ul>
+            <li><a href="https://youtu.be/4tOpRh5o3QE?si=afImQcsCl9ly1DcL" target="_blank" rel="External">Portas Lógicas</a></li>
+            <li><a href="https://www.youtube.com/watch?v=aYVz0l3ZMWc&list=PLRKGEaxOX82miHxszeYs3nnjteIsSTzNu" target="_blank" rel="external">Expressões Booleanas</a></li>
+            <li><a href="https://www.youtube.com/watch?v=hwBQ74bJczU&list=PLw-GnG0Kv5F4lju5PMKUyLUlPwR4ot5yp" target="_blank" rel="External">
+                14 vídeos
+                Funções e portas lógicas - Eletrônica Digital</a></li>
+        </ul>
+    </main>
+    
+</body>
+</html>

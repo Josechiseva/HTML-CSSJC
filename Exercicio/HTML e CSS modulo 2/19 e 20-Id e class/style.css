@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*Aqui chamei a Id usando o # (cardinal)*/
+#bla{
+    text-align: center; 
+    color:orange;
+    background-color: purple;
+
+}
+body{
+    color: white;
+    background-image: linear-gradient(to top, purple, pink, orange);
+    background-attachment: fixed;
+}
+p{
+    text-align: justify;
+}
+h1{
+    color: rgb(238, 189, 197);
+}
+h2{
+    color: rgb(179, 147, 87);
+}
+/*Chamei a class usando .(ponto)*/
+.basico{
+    color: rgb(126, 121, 112);
+}
+.intermedio{
+    color: rgb(156, 144, 120);
+}
+.avançada{
+    color: rgb(197, 142, 40);
+}

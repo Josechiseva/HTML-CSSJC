@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        /*Isso é uma pseudo-class para verificar se o link já foi visitado e executar o bloco*/
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            background-color: darkred;
+            color: white;
+        }
+        /*para quando eu clicar*/
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '[Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+            color: darkgray;
+        }
+        #w::before{
+            content: '✆';
+        }
+    </style>
+
+</head>
+<body>
+    <ul type="none">
+        <li><a href="https://www.facebook.com/profile.php?id=100047493379525" target="_blank">Facebook</a></li>
+        <li><a href="https://wa.me/946644655" target="_blank" id="w">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/jose_designer1/?__pwa=1#" target="_blank">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>

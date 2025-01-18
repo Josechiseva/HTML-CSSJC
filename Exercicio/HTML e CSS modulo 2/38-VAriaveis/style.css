@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+body{
+    background-color: var(--cor0);
+}
+:root{
+    --cor0:#1b3260;
+    --cor1:#2d62a9;
+    --cor2:#7cc2e7;
+}
+#conteiner{
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    margin: 20px 10px;
+    flex-wrap: wrap;
+}
+.quad{
+    width: 200px;
+    height: 200px;
+    background-color: var(--cor2);
+}

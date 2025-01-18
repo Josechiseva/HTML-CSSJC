@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color:orange ;
+}
+nav{
+    margin: 0 10%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+#section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 233, 192);
+}
+#link1{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10% 0 0;
+    transition: color .4s ease;
+}
+#link1:hover{
+    color: orange;
+}
+section ul{
+    font-size: 12px;
+    gap: 15px;
+    margin: 0 0 0 10%;
+    display: flex;
+}
+section ul li{
+    list-style: none;
+}
+section ul li a{
+    color: black;
+    text-decoration: none;
+    transition: color .4s ease;
+}
+
+section ul li a:hover{
+    color: orange;
+   
+}
+nav ul li{
+    padding: 5px;
+    list-style: none;
+    transition: background .5s ease;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.282);
+    color: white;
+    text-decoration: none;
+}
+nav button{
+    background: none;
+    border: none;
+    color: white;
+    background-color: rgb(189, 124, 5);
+    padding: 10px 20px;
+    transition: background .5s ease;
+    border-radius: 10px;
+}
+nav button:hover{
+    background: none;
+    border: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 10px 20px;
+}
+main{
+    margin: 100px;
+}
+main div{
+    margin: auto;
+}
+h1{
+    font-family: 'Playwrite AU SA';
+    font-weight: lighter;
+    color: orange;
+}
+p{
+    font-family: 'poppins';
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 12px;
+}
+abbr{
+    text-decoration: none;
+    color: orange;
+}
+main div a{
+    font-family: 'poppins';
+    padding: 5px;
+    margin: 0 15%;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: background .5s ease;
+}
+main div a:hover{
+    background-color: rgb(255, 255, 255);
+    border: orange solid 1px;
+    color: orange;
+}
+main section div{
+    margin: 10px 0 10px 300px;
+    justify-content: right;
+}
+#sec h1{
+    margin: 0px;
+}
+#pag2{
+    margin: auto;
+    margin: 10px;
+}
+#pag2 ul{
+    display: flex;
+    flex-direction: column;
+}
+#pag2 ul li a{
+    background-color: orange;
+    color: white;
+    padding: 5px 200px 5px 10px;
+    border-radius: 10px;
+    transition: background .5s ease;
+}
+#pag2 ul li a:hover{
+    background-color: white;
+    color: orange;
+    border: orange solid 1px;
+    padding: 5px 200px 5px 10px;
+    border-radius: 10px;
+}
+.sub{
+    font-family: 'poppins';
+    color: orange;
+    text-align: center;
+}
+#tab1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: -10px;
+}
+#tab1 div{
+    padding: 0 25px;
+    border: orange solid 1px;
+}
+.j{
+    font-family: 'poppins';
+    color: orange;
+    margin: 20px;
+}
+ol{
+    margin: 0 0px 40px 50px;
+}
+ol{
+    font-family: 'poppins';
+}
+ol li strong{
+    color: orange;
+}
+.voltar{
+    margin: 20px;
+}
+#m{
+    font-family: 'poppins';
+}
+#m li strong{
+    color: orange;
+}
+
+

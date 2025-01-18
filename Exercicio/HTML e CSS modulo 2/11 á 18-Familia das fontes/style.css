@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*Criando font*/
+@font-face {
+    font-family:'Jay' ;
+    src: url(WonderfulChristmas.otf.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: Jay;
+}
