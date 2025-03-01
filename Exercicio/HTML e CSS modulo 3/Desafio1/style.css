@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'jay';
+    src: url(sunflare/Sunflareotf.otf)format('opentype');
+    
+}
+@font-face {
+    font-family: jay1;
+    src: url(christmas_bell/Christmas\ Bell\ -\ Personal\ Use.otf) format('opentype');
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+header h1{
+    /*letras maisculas*/
+    font-variant: small-caps;
+    font-family: jay;
+    font-size: 10vw;
+}
+header p a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color .4s ease;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.357);
+}
+
+section{
+    font-size: 3vw;
+    font-family: jay1;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding: 30px;
+}
+section.comum{
+    background-color: white;
+    color: black;
+}
+section.especial{
+    background-color: rgb(78, 71, 71);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.813);
+    background-size: cover;
+    background-attachment: fixed;;
+}
+section.especial p{
+    background-color: rgba(0, 0, 0, 0.493);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.759);
+
+}
+section p{
+    padding-bottom: 1em;
+}
+section#img1{
+    background-image: url("imagens/background001.jpg");
+    background-position: right, center;
+}
+section#img2{
+    background-image: url("imagens/background002.jpg");
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+}
