@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'jay';
+    src: url(fontes/drop.otf) format(opentype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #84E1AD;
+}
+header{
+    background-image: linear-gradient(to bottom, #37C475, #1A5C38)
+}
+header h1{
+    font-family: 'Bebas Neue';
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+header p{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 8px;
+    font-weight: lighter;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.905);
+    color: #1A5C38;
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+#bb{
+    padding: 10px;
+    color: #37C475;
+    font-family: 'jay';
+}
+.p{
+    font-size: 12px;
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px 5px;
+}
+.titulo{
+    font-family: 'jay';
+    color: #37C475;
+    background-image: linear-gradient(to right, #1bc16630, white);
+    text-indent: 5px;
+    padding: 5px 10px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div{
+    padding: 20px;
+    background-color: #1A5C38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div iframe{
+    width: 90%;
+}
+
+footer{
+    font-size: 12px;
+    text-align:center;
+    background-color: #1A5C38;
+    padding: 5px;
+    color: white;
+}
+#last{
+    margin: 10px;
+    background-color: #c0f6da;
+    border-radius: 10px;
+}
+#last h1{
+    border-radius: 10px;
+    background-color:#37C475;
+    text-align: center;
+    color: white;
+}
+#m{
+    font-size: 12px;
+    margin: 10px;
+    display: flex;
+    gap: 50px;
+}
+ ul > li::before{
+    margin: 1px;
+    content: '✓';
+}
+.link1{
+    text-decoration: none;
+    color: #37C475;
+}
+.link1:hover{
+    border-radius: 03px;
+    color:white ;
+    background-color: #37C475;
+}
+abbr{
+    text-decoration: none;
+}
