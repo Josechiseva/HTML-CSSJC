@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse:collapse;
+        }
+        td{
+            padding: 5px;
+            border: black solid 1px;
+        }
+        th{
+            padding: 10px;
+            border: black solid 1px;
+        }
+        caption{
+            margin: 10px;
+            font-weight: bolder;
+            background-image: linear-gradient(to left, blue 30%, red, yellow 70%);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        col.profissão{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pratica sobre tabelas</h1>
+    <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col class="profissão">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Contablista</td>
+        </tr>
+        <tr>
+            <td>José Chiseva</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Eng/Militar</td>
+        </tr>
+        <tr>
+            <td>Hamiltom</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Eng.Informatico</td>
+        </tr>
+        <tr>
+            <td>Joaquim Chiseva</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Hacker</td>
+        </tr>
+    </table>
+</body>
+</html>
