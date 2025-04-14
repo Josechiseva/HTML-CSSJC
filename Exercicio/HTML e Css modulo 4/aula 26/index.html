@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlários</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+</style>
+<body>
+    <h1>Formulários</h1>
+    <form method="post">
+        <p>
+            <label for="iprov">Provincias: </label>
+            <select name="prov" id="iprov">
+                <option value="lnd">Luanda</option>
+                <option value="cs">Cuanza Sul</option>
+                <option value="cn">Cuanza Norte</option>
+                <option value="ls">Lunda Sul</option>
+                <option value="ln">Lunda Norte</option>
+                <option value="hl">Huila</option>
+                <option value="hb">Huambo</option>
+                <option value="bg">Benguela</option>
+                <option value="mg">Malanje</option>
+                <option value="ug">Uige</option>
+                <option value="cnn">Cunene</option>
+                <option value="nb">Namibe</option>
+                <option value="mx">Moxico</option>
+                <option value="cb">Cabinda</option>
+                <option value="cd">Cuando Cubango</option>
+                <option value="bng">Bengo</option>
+                <option value="zr">Zaire</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="profe">Professor</option>
+                <option value="eng">Engenheiro</option>
+                <option value="adv">Advogado</option>
+                <option value="pol">Policial</option>
+                <option value="jz">Juiz</option>
+            </datalist>
+        </p>
+
+        
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
