@@ -18,6 +18,20 @@ Grandes telas: acima de 1200px
         display: inline-block;
     }
     main{
-        width: 768;
+        width: 768px;
+    }
+}
+@media screen and(min-width: 992){
+    span#imenu{
+        display: none;
+    }
+    menu#itens{
+        display: block;
+    }
+    menu ul li{
+        display: inline-block;
+    }
+    main{
+        width: 992px;
     }
 }
