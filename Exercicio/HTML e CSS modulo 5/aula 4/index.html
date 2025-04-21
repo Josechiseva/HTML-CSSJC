@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box</title>
+    <title>Wrap e fluxo no flexbox</title>
     <style>
         div#conteiner{
             background-color: lightcoral;
             display: flex;  
             margin: auto; 
-            padding: 10px;   
+            padding: 10px; 
+            flex-wrap: wrap;  
+            flex-direction: row;
+            height: 40vh;
         }
         div.item{
             background-color: aqua;
             border: solid 1px black;
             text-align: center;
-            flex: auto;
+            width: 100px;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
     <div id="conteiner">
-        <div class="item">B</div>
         <div class="item">A</div>
+        <div class="item">B</div>
         <div class="item">C</div>
         <div class="item">D</div>
         <div class="item">E</div>
