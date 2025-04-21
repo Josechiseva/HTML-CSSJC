@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify-content e align-item</title>
+    <style>
+        div#conteiner{
+            background-color: lightcoral;
+            display: flex;  
+            margin: auto;  
+            gap: 10px;
+            height: 20vh;
+            flex-flow: row wrap;
+            justify-content:center;
+            align-items: center;
+        }
+        div.item{
+            background-color: aqua;
+            border: solid 1px black;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!--Estão todos com order 0-->
+    <div id="conteiner">
+        <!--O A e o B estarão com order 1 e 2-->
+        <div class="item" style="order: 1; align-self: flex-start;">B</div>
+        <div class="item" style="order: 2; align-self: auto;">A</div>
+        <!--O C vai estar com order 0-->
+        <div class="item" style="align-self: flex-end;">C</div>
+        <!--O D é o ultmo elemento, mas eu posso coloca-lo com order de -3 para ele ficar atrás de geral por conta da recta númerica-->
+        <div class="item" style="order: -1; align-self: stretch;">D</div>
+    </div>
+    
+</body>
+</html>
