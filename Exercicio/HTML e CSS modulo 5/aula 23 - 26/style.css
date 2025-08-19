@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+div.container{
+    height: 500px;
+    width: 80vw;
+    border: solid 3px red;
+    Display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    gap: 20px;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+}
+div.itens{
+    border: solid 3px blue;
+    padding: 5px;
+}
